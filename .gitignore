@@ -1,19 +1,4 @@
-﻿# Furby Chess Engine
-
-UCI chess engine by nkralev76-hue — C++17, Syzygy TB, Lazy SMP.
-
-## Download
-See **Releases** for the portable Windows binary (Furby_1.49_portable.exe).
-
-## Usage
-\\\
-uci
-isready
-position startpos
-go depth 12
-\\\
-"@ | Set-Content -Path "C:\Users\nkral\Desktop\Ferz\Dvigatelche\Furby-release\README.md" -Encoding UTF8; @"
-# binaries
+﻿# binaries
 *.exe
 *.o
 *.obj
@@ -25,6 +10,6 @@ go depth 12
 # IDE
 .vscode/
 .idea/
-# keep portable binary out of git — use Releases
+# keep portable binary out of git - use Releases
 Furby_*.exe
 portable/
